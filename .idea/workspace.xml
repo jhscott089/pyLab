@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d76b3e7-223d-4be7-9122-7e698f338bdb" name="Changes" comment="Created hello.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpsGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/rpsGame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2kAHD05yZrE6B6yySZgeqbiE0va" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,6 +38,7 @@
     "Python.fiveTimes.executor": "Run",
     "Python.guessTheNumber.executor": "Run",
     "Python.hello.executor": "Run",
+    "Python.helloFunc.executor": "Run",
     "Python.printRandom.executor": "Run",
     "Python.rpsGame.executor": "Run",
     "Python.scratch_2.executor": "Run",
