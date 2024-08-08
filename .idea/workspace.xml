@@ -35,6 +35,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.abcdCallStack.executor": "Run",
+    "Python.collatz.executor": "Run",
     "Python.exitExample.executor": "Run",
     "Python.fiveTimes.executor": "Run",
     "Python.globalStatement.executor": "Run",
