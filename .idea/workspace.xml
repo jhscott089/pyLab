@@ -39,6 +39,7 @@
     "Python.guessTheNumber.executor": "Run",
     "Python.hello.executor": "Run",
     "Python.helloFunc.executor": "Run",
+    "Python.magic8Ball.executor": "Run",
     "Python.printRandom.executor": "Run",
     "Python.rpsGame.executor": "Run",
     "Python.scratch_2.executor": "Run",
