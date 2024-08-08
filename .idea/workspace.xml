@@ -34,8 +34,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.abcdCallStack.executor": "Run",
     "Python.exitExample.executor": "Run",
     "Python.fiveTimes.executor": "Run",
+    "Python.globalStatement.executor": "Run",
     "Python.guessTheNumber.executor": "Run",
     "Python.hello.executor": "Run",
     "Python.helloFunc.executor": "Run",
@@ -47,6 +49,8 @@
     "Python.swordfish.executor": "Run",
     "Python.vampire.executor": "Run",
     "Python.yourName2.executor": "Run",
+    "Python.zeroDivide.executor": "Run",
+    "Python.zigzag.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ToolWindowPython Console.ShowToolbar": "false",
     "git-widget-placeholder": "main",
