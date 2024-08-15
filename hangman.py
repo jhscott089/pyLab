@@ -12,6 +12,9 @@ while remaining > 0:
         print('Guesses so far: ' + pl)
     letterList = word[0:length]
     guess = input()
+    if len(guess) > 1:
+        print('Input invalid: May only guess single letter.')
+        break
     guessList += guess
 
     if guess in letterList:
@@ -20,7 +23,11 @@ while remaining > 0:
         result = 0
     if result == 1:
         cGuessCount = cGuessCount + 1
-        print('Congratulations! You guessed correctly. Your score is now ' + str(cGuessCount))
+        if cGuessCount == length:
+            print('Congratulations, you won! Play again? Type "Y" or "N"')
+            input()
+        else:
+            print('Congratulations! You guessed correctly. Your score is now ' + str(cGuessCount))
     else:
         remaining = remaining - 1
         if remaining == 0:
