@@ -1,19 +1,26 @@
 word = 'wordle'
 length = (len(word))
-remaining = 6
+remaining = length
+import sys
+guessList = 0
 while remaining > 0:
     print('One word, ' + str(length) + ' letters')
     print('Guess a letter')
     letterList = word[0:length]
     guess = input()
+
     if guess in letterList:
         result = 1
     else:
         result = 0
-    print(result)
     if result == 1:
-        print('Congratulations! You guessed correctly. Your score is now ' + str(result))
+        guessList = guessList + 1
+        print('Congratulations! You guessed correctly. Your score is now ' + str(guessList))
     else:
         remaining = remaining - 1
-        print('WRONG. You have ' + str(remaining) + ' tries remaining')
-
+        if remaining == 0:
+            print('You have died.')
+            break
+        else:
+            print('WRONG. You have ' + str(remaining) + ' tries remaining. Letters guessed so far:' + guessList )
+            guessList += guess

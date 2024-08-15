@@ -50,6 +50,7 @@
     "Python.prime.executor": "Run",
     "Python.printRandom.executor": "Run",
     "Python.rpsGame.executor": "Run",
+    "Python.scratch.executor": "Run",
     "Python.scratch_2.executor": "Run",
     "Python.scratch_3.executor": "Run",
     "Python.swordfish.executor": "Run",
