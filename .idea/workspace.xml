@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d76b3e7-223d-4be7-9122-7e698f338bdb" name="Changes" comment="Created hello.py">
+      <change afterPath="$PROJECT_DIR$/passingReference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangman.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +48,7 @@
     "Python.helloFunc.executor": "Run",
     "Python.magic8Ball.executor": "Run",
     "Python.myPets.executor": "Run",
+    "Python.passingReference.executor": "Run",
     "Python.prime.executor": "Run",
     "Python.printRandom.executor": "Run",
     "Python.rpsGame.executor": "Run",

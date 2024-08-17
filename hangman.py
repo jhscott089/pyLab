@@ -1,5 +1,9 @@
 word = 'wordle'
+guess =
 
+# wordState function will create show the letters that have been guessed in the order in which they belong
+def wordState():
+    blank = '______'
 def game():
     length = (len(word))
     remaining = int(length)
@@ -29,7 +33,9 @@ def game():
                 print('Congratulations, you won! Play again? Type "Y" or "N"')
                 input()
             else:
-                print('Congratulations! You guessed correctly. Your score is now ' + str(cGuessCount))
+                guessIndex = letterList.index(guess)
+                print(placementVar.index[guessIndex])
+                print('Correct! You have correctly guessed ' + str(cGuessCount) + ' letters so far')
         else:
             remaining = remaining - 1
             if remaining == 0:
