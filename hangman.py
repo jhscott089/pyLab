@@ -1,14 +1,13 @@
 word = 'wordle'
-guess =
 
 # wordState function will create show the letters that have been guessed in the order in which they belong
-def wordState():
-    blank = '______'
 def game():
     length = (len(word))
     remaining = int(length)
     import sys
+    import copy
     cGuessCount = 0
+    guessStatus = ['#' * len(word)]  ## This needs to be modified to create a separate entry for each letter rather than single string
     guessList = []
     while remaining > 0:
         print('One word, ' + str(length) + ' letters')
@@ -33,9 +32,10 @@ def game():
                 print('Congratulations, you won! Play again? Type "Y" or "N"')
                 input()
             else:
-                guessIndex = letterList.index(guess)
-                print(placementVar.index[guessIndex])
-                print('Correct! You have correctly guessed ' + str(cGuessCount) + ' letters so far')
+                guessIndex = word.index(guess)
+                guessStatus[guessIndex] = guess
+
+                print('Correct!' + guessStatus) #Show the word with hashes to fill in unguessed letters
         else:
             remaining = remaining - 1
             if remaining == 0:
