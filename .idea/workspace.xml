@@ -32,47 +32,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.abcdCallStack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.allMyCats.executor&quot;: &quot;Run&quot;,
-    &quot;Python.collatz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.commaCode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conway.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exitExample.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fiveTimes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.globalStatement.executor&quot;: &quot;Run&quot;,
-    &quot;Python.guessTheNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hangman.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
-    &quot;Python.helloFunc.executor&quot;: &quot;Run&quot;,
-    &quot;Python.magic8Ball.executor&quot;: &quot;Run&quot;,
-    &quot;Python.myPets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.passingReference.executor&quot;: &quot;Run&quot;,
-    &quot;Python.prime.executor&quot;: &quot;Run&quot;,
-    &quot;Python.printRandom.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rpsGame.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.swordfish.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vampire.executor&quot;: &quot;Run&quot;,
-    &quot;Python.yourName2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.zeroDivide.executor&quot;: &quot;Run&quot;,
-    &quot;Python.zigzag.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowPython Console.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.abcdCallStack.executor": "Run",
+    "Python.allMyCats.executor": "Run",
+    "Python.collatz.executor": "Run",
+    "Python.commaCode.executor": "Run",
+    "Python.conway.executor": "Run",
+    "Python.exitExample.executor": "Run",
+    "Python.fiveTimes.executor": "Run",
+    "Python.globalStatement.executor": "Run",
+    "Python.guessTheNumber.executor": "Run",
+    "Python.hangman.executor": "Run",
+    "Python.hello.executor": "Run",
+    "Python.helloFunc.executor": "Run",
+    "Python.magic8Ball.executor": "Run",
+    "Python.myPets.executor": "Run",
+    "Python.passingReference.executor": "Run",
+    "Python.prime.executor": "Run",
+    "Python.printRandom.executor": "Run",
+    "Python.rpsGame.executor": "Run",
+    "Python.scratch.executor": "Run",
+    "Python.scratch_2.executor": "Run",
+    "Python.scratch_3.executor": "Run",
+    "Python.scratch_5.executor": "Run",
+    "Python.swordfish.executor": "Run",
+    "Python.vampire.executor": "Run",
+    "Python.yourName2.executor": "Run",
+    "Python.zeroDivide.executor": "Run",
+    "Python.zigzag.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowPython Console.ShowToolbar": "false",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.keymap"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;,
-      &quot;PLAIN_TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python",
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
