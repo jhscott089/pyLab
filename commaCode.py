@@ -1,8 +1,5 @@
-def commaCode():
-    list = [commaCode]
-    for i in list:
-        print(commaCode())
+def commaCode(list1):
+    print(list1)
 
-print(commaCode[1,2,3,4,5])
-
-    
+bob = [1,2,3]
+commaCode(bob)

@@ -7,7 +7,7 @@ def game():
     import sys
     import copy
     cGuessCount = 0
-    guessStatus = ['#' * len(word)]  ## This needs to be modified to create a separate entry for each letter rather than single string
+    guessStatus = '#' * len(word)  ## This needs to be modified to create a separate entry for each letter rather than single string
     guessList = []
     while remaining > 0:
         print('One word, ' + str(length) + ' letters')
@@ -33,7 +33,7 @@ def game():
                 input()
             else:
                 guessIndex = word.index(guess)
-                guessStatus[guessIndex] = guess
+                newGS = guess + guessStatus ## Need to figure out a way to slice guessStatus in a way depending on where the index is
 
                 print('Correct!' + guessStatus) #Show the word with hashes to fill in unguessed letters
         else:
